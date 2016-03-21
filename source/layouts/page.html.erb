@@ -1,0 +1,26 @@
+<%= partial "partials/header" %>
+<%= partial "partials/menu" %>
+
+<div class="headline">
+  <div class="row">
+    <div class="medium-12 columns">
+      <h1><%= current_page.data.title %></h1>
+    </div>
+  </div>
+</div>
+
+<div class="article row">
+  <div class="medium-8 small-12 columns">
+    <%= yield %>
+  </div>
+  <div class="sidebar medium-3 offset-1 small-12 columns">
+    <ul class="categories">
+      <li><a href="senseicopeland.html">Sensei Copeland</a></li>
+      <li><a href="classes.html">Our Classes</a></li>
+      <li><a href="timetable.html">Timetables</a></li>
+			<li><a href="#">Memberships and Fees</a></li>
+		</ul>
+  </div>
+</div>
+
+<%= partial "partials/footer" %>

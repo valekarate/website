@@ -15,7 +15,12 @@ body {
   }
 
   a { color: #000; }
-  a:active { color: $primary-color; }
+  a:active, a:hover {
+    font-weight: bold;
+    color: $primary-color;
+    text-decoration: underline;
+    text-decoration-color: $primary-color;
+  }
 }
 
 .orbit {
@@ -62,11 +67,56 @@ body {
   }
 }
 
+.headline {
+  background-color: $primary-color;
+  background-image: url(../images/title_backs/about.jpg);
+  background-position: right -30% top -40px;
+  background-repeat: no-repeat;
+  max-width: 100rem !important;
+
+  .row {
+    z-index: 10;
+  }
+
+  h1 {
+    color: #fff;
+    font-size: 3em;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 0.5em 0;
+    position: relative;
+    z-index: 50;
+  }
+}
+
+.article {
+  h2 { margin: 1em 0; }
+  ul { font-size: 1.25em; }
+}
+
+.sidebar {
+  .categories { margin: 6em 0 1.5em 0; }
+  
+  h4 { margin: 2em 0 1.5em 0; }
+  ul { margin: 0; }
+  li {
+    padding: 0.5em 0 0.5em 0;
+    border-bottom: 1px solid $primary-color;
+    display: block;
+    text-transform: uppercase;
+  }
+}
+
 .timetable {
   width: 100%;
-  font-family: 'Raleway' sans-serif;
-  font-weight: 600;
-  margin: 0 0 2em 0;
+  margin: 1em 0 2em 0;
+
+  td:first-child {
+    color: $primary-color;
+    font-weight: bold;
+    text-align: center;
+    width: 30%;
+  }
 
   ul {
     list-style-type: none;
