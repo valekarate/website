@@ -35,6 +35,7 @@ body {
     width: 50%;
     margin: 0 0 0 50%;
     background-color: $primary-color;
+    background-image: linear-gradient(to right, $primary-color, #d13040);
     text-transform: uppercase;
     -webkit-box-shadow: -3px 0px 3px 0px rgba(0,0,0,0.50);
     -moz-box-shadow: -3px 0px 3px 0px rgba(0,0,0,0.50);
@@ -78,7 +79,7 @@ body {
     z-index: 10;
   }
 
-  h1 {
+  h1, h2 {
     color: #fff;
     font-size: 3em;
     font-weight: 900;
@@ -90,13 +91,13 @@ body {
 }
 
 .article {
-  h2 { margin: 1em 0; }
+  h1, h2 { margin: 1em 0; }
   ul { font-size: 1.25em; }
 }
 
 .sidebar {
   .categories { margin: 6em 0 1.5em 0; }
-  
+
   h4 { margin: 2em 0 1.5em 0; }
   ul { margin: 0; }
   li {

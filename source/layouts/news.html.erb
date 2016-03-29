@@ -1,0 +1,25 @@
+<%= partial "partials/header" %>
+<%= partial "partials/menu" %>
+
+<div class="headline">
+  <div class="row">
+    <div class="medium-12 columns">
+      <h1>News</h1>
+    </div>
+  </div>
+</div>
+
+<div class="article row">
+  <div class="medium-8 small-12 columns">
+    <%= yield %>
+  </div>
+  <div class="sidebar medium-3 offset-1 small-12 columns">
+    <ul class="categories">
+      <% blog.articles[0...5].each do |article| %>
+      <li><a href="<%= article.url %>"><%= article.title %></a></li>
+      <% end %>
+		</ul>
+  </div>
+</div>
+
+<%= partial "partials/footer" %>
