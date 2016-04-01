@@ -2,7 +2,15 @@ prose:
   rooturl:
     - 'source'
   ignore:
-    - images # Ignore everything
     - source/images
-    # - !/_posts # Include posts
-    # - !/_includes # Include includes
+    - source/javascripts
+    - source/layouts
+    - source/partials
+    - source/stylesheets
+    - source/humans.txt
+    - source/robots.txt
+    - source/about.html.erb
+    - source/index.html.erb
+    - source/news.html.erb
+    - source/senseicopeland.html.erb
+    - source/timetable.html.erb
