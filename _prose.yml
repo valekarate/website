@@ -2,6 +2,6 @@ prose:
   rooturl:
     - 'source'
   ignore:
-    - /images # Ignore everything
+    - images # Ignore everything
     # - !/_posts # Include posts
     # - !/_includes # Include includes
