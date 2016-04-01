@@ -1,4 +1,2 @@
 prose:
-  rooturl:
-    - 'source/pages'
-    - 'source/news'
+  rooturl: 'source/pages'
