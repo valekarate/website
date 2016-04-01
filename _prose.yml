@@ -1,2 +1,7 @@
 prose:
-  rooturl: 'source/pages'
+  rooturl:
+    - 'source'
+  ignore:
+    - /images # Ignore everything
+    # - !/_posts # Include posts
+    # - !/_includes # Include includes
