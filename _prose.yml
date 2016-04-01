@@ -3,5 +3,6 @@ prose:
     - 'source'
   ignore:
     - images # Ignore everything
+    - source/images
     # - !/_posts # Include posts
     # - !/_includes # Include includes
