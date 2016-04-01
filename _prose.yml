@@ -10,6 +10,7 @@ prose:
     - source/humans.txt
     - source/robots.txt
     - source/about.html.erb
+    - source/classes.html.erb
     - source/index.html.erb
     - source/news.html.erb
     - source/senseicopeland.html.erb
