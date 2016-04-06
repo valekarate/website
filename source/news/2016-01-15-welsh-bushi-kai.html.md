@@ -3,9 +3,6 @@
   date:  15-01-2016
 ---
 <!-- 78 -->
-
-<h1>WELSH BUSHI-KAI INVITATIONAL JAN 2016</h1>
-
 <p>Only a week after the KARATE WALES YOUTH OPEN, Neath Sports Centre
 was the venue, when our friends from the Welsh Bushi-Kai hosted their
 Invitational Championships.</p>

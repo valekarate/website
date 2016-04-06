@@ -3,9 +3,6 @@
   date:  01-01-2016
 ---
 <!-- 77 -->
-
-<h1>KARATE WALES YOUTH OPEN JAN 2016</h1>
-
 <p>With the Christmas &amp; New Year break over, the Vale Karate Squad needed to hit
 the ground running, as one of the biggest events of the domestic Calendar took
 place on the 24th January, when Merthyr was the venue when Karate Wales Ltd,

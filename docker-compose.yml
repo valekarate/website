@@ -1,0 +1,6 @@
+dev: &dev
+  build:        .
+  dockerfile:   Dockerfile
+  volumes:      ["./:/app"]
+  environment:  &env
+    VIRTUAL_HOST:   www.valekarate.dev

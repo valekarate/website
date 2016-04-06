@@ -3,9 +3,6 @@ title: BRINGING THE CURTAIN DOWN ON 2015!
 date:  2015/12/31
 ---
 <!-- 76 -->
-
-<h1>BRINGING THE CURTAIN DOWN ON 2015!</h1>
-
 <p>The December Grading has traditionally always been a busy and exciting weekend
 for Vale Karate, as all students, with the exception of our many Black Belts,
 aim to finish the year having secured their next belt!</p>
