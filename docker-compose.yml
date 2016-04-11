@@ -2,5 +2,6 @@ dev: &dev
   build:        .
   dockerfile:   Dockerfile
   volumes:      ["./:/app"]
+  env_file:     vars.env
   environment:  &env
     VIRTUAL_HOST:   www.valekarate.dev
