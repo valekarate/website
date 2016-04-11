@@ -273,6 +273,7 @@ GEM
       builder
       nokogiri (>= 1.4.1)
       trollop
+    redcarpet (3.3.4)
     ruby-progressbar (1.7.5)
     sass (3.4.22)
     sprockets (2.12.4)
@@ -314,6 +315,7 @@ DEPENDENCIES
   middleman-livereload (~> 3.1.0)
   middleman-s3_sync
   rake
+  redcarpet
   tzinfo-data
   wdm (~> 0.1.0)
 
