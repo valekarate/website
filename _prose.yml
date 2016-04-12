@@ -16,3 +16,9 @@ prose:
     - source/news.html.erb
     - source/senseicopeland.html.erb
     - source/timetable.html.erb
+  metadata:
+    news:
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
