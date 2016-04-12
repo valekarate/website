@@ -1,3 +1,5 @@
+require 'middleman-deploy'
+
 set :css_dir,           'stylesheets'
 set :js_dir,            'javascripts'
 set :images_dir,        'images'
@@ -36,29 +38,25 @@ after_configuration do
   sprockets.append_path File.join "#{root}", @bower_config["directory"]
 end
 
+activate :deploy do |deploy|
+  deploy.method = :git
+  deploy.remote = 'gh-pages'
+end
+
 # Build-specific configuration
 configure :build do
 end
 
 configure :development do
-  activate :livereload
 end
 
 #------------------------------------------------------------------------
-AWS_BUCKET                      = 'valekarate-prod'
 AWS_CLOUDFRONT_DISTRIBUTION_ID  = 'E3MU5VW27PPDKR'
 
 # Variables: Sent in on CLI by rake task via ENV
 #------------------------------------------------------------------------
 AWS_ACCESS_KEY                  = ENV['AWS_ACCESS_KEY']
 AWS_SECRET                      = ENV['AWS_SECRET']
-
-activate :s3_sync do |s3_sync|
-  s3_sync.bucket                     = AWS_BUCKET # The name of the S3 bucket you are targeting. This is globally unique.
-  s3_sync.aws_access_key_id          = AWS_ACCESS_KEY
-  s3_sync.aws_secret_access_key      = AWS_SECRET
-  s3_sync.delete                     = true # We delete stray files by default.
-end
 
 activate :cloudfront do |cf|
   cf.access_key_id                    = AWS_ACCESS_KEY

@@ -1,2 +1,12 @@
+---
+language: ruby
+
 install:
+  - bower install
   - bundle install
+
+script:
+  - bundle exec middleman build
+
+after_success:
+  - script/deploy.sh
