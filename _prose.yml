@@ -2,6 +2,7 @@ prose:
   rooturl:
     - 'source'
   ignore:
+    - source/CNAME
     - source/images
     - source/javascripts
     - source/layouts
