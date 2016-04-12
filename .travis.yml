@@ -1,9 +1,10 @@
 ---
 language: ruby
+rvm:
+  - 2.2
+cache: bundler
 
 install:
-  - npm install -g bower
-  - bower install
   - bundle install
 
 script:
